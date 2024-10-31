@@ -1,0 +1,38 @@
+.container-input {
+    position: relative;
+    width: clamp(300px, 50%, 400px);
+    margin: 0 auto;
+}
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 1px #222;
+    outline: none;
+    margin-top: 20px;
+}
+.container-item {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    border: solid 1px#222;
+    border-top: 1px solid transparent;
+    margin-top: -3px;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+}
+.item-input {
+    display: block;
+    padding: 5px;
+    color: #333;
+    
+}
+.item-input:hover {
+    background-color: #46b;
+    cursor: pointer;
+}
+.item-span {
+    background-color: yellow;
+}

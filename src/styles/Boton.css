@@ -1,0 +1,12 @@
+button {
+    background-color: #222;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #666;
+    cursor: pointer;
+}
+button:focus {
+    background-color: #666;
+}
